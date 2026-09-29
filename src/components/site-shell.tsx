@@ -61,7 +61,7 @@ export function SiteHeader() {
           </button>
         </div>
       </header>
-      <div className={`fixed inset-0 z-30 bg-[#172239] transition-all duration-500 lg:hidden ${open ? 'visible opacity-100' : 'invisible opacity-0'}`}>
+      <div className={`dc-mobile-glass fixed inset-0 z-30 transition-all duration-500 lg:hidden ${open ? 'visible opacity-100' : 'invisible opacity-0'}`}>
         <div className="flex h-full flex-col px-6 pb-8 pt-28">
           <p className="font-mono-dc text-[10px] uppercase tracking-[.22em] text-[#8bd8df]">Navigate the ecosystem</p>
           <nav className="mt-8 flex flex-col gap-3" aria-label="Mobile navigation">
