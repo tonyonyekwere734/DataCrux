@@ -22,7 +22,7 @@ export function HomePage() {
         <div className="relative mx-auto grid w-full max-w-[1320px] gap-16 lg:grid-cols-[1.1fr_.9fr] lg:items-end">
           <div className="dc-reveal">
             <Eyebrow light>DataCrux / Technology + digital services</Eyebrow>
-            <h1 className="mt-6 max-w-4xl text-balance text-[clamp(4rem,10vw,9.2rem)] leading-[.84] tracking-[-.075em]">We build<br /><span className="font-display italic font-normal text-[#8bd8df]">products.</span></h1>
+            <h1 className="mt-6 max-w-4xl text-balance text-[clamp(4rem,10vw,9.2rem)] leading-[.84] tracking-[-.075em]">We build business<br /><span className="font-display italic font-normal text-[#8bd8df]">solutins products.</span></h1>
              <p className="mt-9 max-w-md text-lg leading-relaxed text-[#c8d1d6] sm:text-xl">Technology built for how business moves.</p>
             <div className="mt-9 flex flex-wrap gap-3"><ButtonLink href="/products">Explore products</ButtonLink><ButtonLink href="/contact" secondary>Talk to DataCrux</ButtonLink></div>
           </div>
